@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.container{
+    max-width:900px;
+    margin: 0 auto;
+}
+.applybox{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 10px;
+   background-color: white;
+   box-shadow: 4px 3px 5px rgb(1, 1, 0.1);
+   border-radius: 7px;
+}
+.title-small{
+    font-size: 20px;
+}
+.form-container{
+    display: grid;
+    grid-template-columns: repeat(auto-ft, minmax(300px,2fr));
+}

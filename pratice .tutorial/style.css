@@ -1,0 +1,13 @@
+h1{
+    background-color: red;
+}
+section{
+    background-color: aqua;
+    width: 400px;
+    font-size: 2 rem;
+}
+.box{
+    background-color: blue;
+    width: 50%;
+    font-size: 2rem;
+}

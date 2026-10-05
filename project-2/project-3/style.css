@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    width: 30%;
+    margin: 150px auto;
+    padding: 10px;
+    box-shadow: -5px 5px 10px gray;
+    border-radius: 10px;
+
+}
+h1{
+    text-align: center;
+}
+input{
+    display: block;
+    width: 80%;
+    padding: 5px;
+    margin: auto;
+    border: none;
+    border-bottom: 2px solid black;
+}
+input:hover{
+    background-color: aqua;
+    color: white;
+}
+button{
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+}
+button:hover{
+    background: blue;
+    color: black;
+    cursor: pointer;
+}
